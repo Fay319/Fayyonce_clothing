@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
 }
 
-/* hero */
+/* HERO */
 .hero {
   background: radial-gradient(circle at top, rgba(181,48,51,0.25), #0b0b0b);
   padding-bottom: 3rem;
@@ -52,6 +52,7 @@ body {
   font-size: 0.9rem;
   background: rgba(11,11,11,0.4);
   backdrop-filter: blur(6px);
+  cursor: pointer;
 }
 
 .btn.primary {
@@ -98,7 +99,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* sections */
+/* SECTIONS */
 .section {
   max-width: 1100px;
   margin: 3.5rem auto;
@@ -115,7 +116,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-/* products grid */
+/* PRODUCTS GRID */
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
@@ -144,7 +145,7 @@ body {
   background-position: center;
 }
 
-/* fallback colors if images not there yet */
+/* fallbacks if image not found */
 .hoodie {
   background: #131313;
 }
@@ -171,7 +172,7 @@ body {
   min-height: 170px;
 }
 
-/* logo dots = show placement */
+/* red dot to show logo placement */
 .logo-dot {
   width: 26px;
   height: 26px;
@@ -205,7 +206,7 @@ body {
   color: var(--accent);
 }
 
-/* order section */
+/* ORDER SECTION */
 .order {
   text-align: center;
   background: rgba(181,48,51,0.05);
@@ -221,6 +222,7 @@ body {
   margin-right: auto;
 }
 
+/* links */
 a {
   color: #ffffff;
   text-decoration: none;
@@ -238,6 +240,7 @@ a:hover {
   font-size: 0.8rem;
 }
 
+/* responsive */
 @media (max-width: 650px) {
   .navbar {
     gap: 1rem;
@@ -253,5 +256,4 @@ a:hover {
     height: 45px;
   }
 }
-
 
