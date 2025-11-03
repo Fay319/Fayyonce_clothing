@@ -135,16 +135,18 @@ body {
 
 .product-img {
   border-radius: 1rem;
-  min-height: 160px;
+  min-height: 260px; /* increased height */
   border: 1px solid rgba(240,240,240,0.03);
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: contain;        /* show the whole shirt */
-  background-position: center;     /* center it */
-  background-repeat: no-repeat;    /* no tiles */
-  background-color: #0b0b0b;       /* dark bg behind transparent parts */
+  background-size: contain;
+  background-position: center center; /* ensure centered */
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+}
+       /* dark bg behind transparent parts */
 }
 .product-img.white-bg {
   background-color: #f5f5f5;
