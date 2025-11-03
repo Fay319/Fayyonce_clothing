@@ -135,17 +135,19 @@ body {
 
 .product-img {
   border-radius: 1rem;
-  min-height: 260px; /* increased height */
-  border: 1px solid rgba(240,240,240,0.03);
+  min-height: 260px;
+  border: 1px solid rgba(240,240,240,0.05);
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: contain;
-  background-position: center center; /* ensure centered */
+  background-position: center center;
   background-repeat: no-repeat;
   background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); /* adds depth so black items show up */
 }
+
        /* dark bg behind transparent parts */
 }
 .product-img.white-bg {
