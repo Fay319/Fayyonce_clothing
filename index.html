@@ -3,185 +3,150 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fayyoncé | Drops</title>
+  <title>Fayyoncé Clothing</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <!-- HERO / HEADER -->
-  <header class="hero">
-    <nav class="navbar">
-      <div class="brand">
-        <img src="logo.png" alt="Fayyonce logo" class="logo">
-      </div>
-      <a class="btn" href="https://instagram.com/fayyonce_clothing" target="_blank" rel="noopener">
-        Shop Updates
-      </a>
-    </nav>
 
-    <div class="hero-content">
-      <h1>Welcome to the world of Fayyoncé.</h1>
-      <p>No association to B — just heat.</p>
-      <div class="hero-actions">
-        <a class="btn primary" href="#shop">View products</a>
-        <a class="btn ghost" href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank" rel="noopener">Order now</a>
-      </div>
-    </div>
+  <!-- Header -->
+  <header class="header">
+    <img src="img/logo.png" alt="Fayyoncé Logo" class="logo" />
+    <nav class="nav">
+      <a href="#shop">Shop</a>
+      <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank">Order Form</a>
+      <a href="https://instagram.com/fayyonce_clothing" target="_blank">Instagram</a>
+    </nav>
   </header>
 
-  <!-- PRODUCTS -->
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to the world of Fayyoncé</h1>
+    <p>No association to B — just heat.</p>
+    <p>DM us or email <a href="mailto:atlboyz561@gmail.com">atlboyz561@gmail.com</a> for questions.</p>
+    <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="cta" target="_blank">Place an Order</a>
+  </section>
+
+  <!-- Shop Section -->
   <section id="shop" class="section">
     <h2>Available Now</h2>
-      <p class="section-sub">Product photos coming soon! — for now, colors are shown as blocks.</p>
-      <p class="section-sub">
-    Product photos coming soon — in the meantime, check out our 
-    <a href="https://instagram.com/fayyonce_clothing" target="_blank">Instagram</a>
-    to see each piece on real models.
-  </p>
+    <p class="section-sub">Tees $10 • Long sleeves $15 • Hoodies $20 • Sweatpants $15</p>
+    <p class="section-sub">Product photos coming soon — in the meantime, check out our 
+      <a href="https://instagram.com/fayyonce_clothing" target="_blank">Instagram</a>
+      to see each piece on real models.</p>
 
+    <div class="product-grid">
 
-
-    <div class="products">
-      <!-- HOODIES -->
-      <article class="product">
-        <div class="product-img hoodie" style="background-image:url('img/hoodie-black.png');">
-          <span class="logo-dot centered"></span>
-        </div>
-        <h3>Black Hoodie</h3>
-        <p>Centered red logo</p>
-        <p class="price">$20</p>
-        <a class="btn small" href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank">Order</a>
-      </article>
-
-      <article class="product">
-        <div class="product-img hoodie white-bg" style="background-image:url('img/hoodie-white.png');">
-          <span class="logo-dot centered dark"></span>
-        </div>
-        <h3>White Hoodie</h3>
-        <p>Centered red logo</p>
-        <p class="price">$20</p>
-        <a class="btn small" href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank">Order</a>
-      </article>
-
-      <!-- TEES -->
-      <article class="product">
-        <div class="product-img tee" style="background-image:url('img/tee-black.png');">
-          <span class="logo-dot left"></span>
-        </div>
-        <h3>Black Tee</h3>
+      <!-- Short Sleeve Tees -->
+      <div class="product-card">
+        <img src="img/tee-black.png" alt="Black Tee" />
+        <h2>Black Tee</h2>
         <p>Left chest logo</p>
-        <p class="price">$10</p>
-        <a class="btn small" href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank">Order</a>
-        <div class="product-card">
-  <img src="img/tee-navy.png" alt="Navy Blue Tee">
-  <h2>Navy Blue Tee</h2>
-  <p>Left chest logo</p>
-  <span>$10</span>
-  <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
-</div>
+        <span>$10</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
 
-<div class="product-card">
-  <img src="img/tee-green.png" alt="Dark Green Tee">
-  <h2>Dark Green Tee</h2>
-  <p>Left chest logo</p>
-  <span>$10</span>
-  <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
-</div>
-
-<div class="product-card">
-  <img src="img/tee-maroon.png" alt="Maroon Tee">
-  <h2>Maroon Tee</h2>
-  <p>Left chest logo</p>
-  <span>$10</span>
-  <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
-</div>
-
-      </article>
-
-      <article class="product">
-        <div class="product-img tee white-bg" style="background-image:url('img/tee-white.png');">
-          <span class="logo-dot left dark"></span>
-        </div>
-        <h3>White Tee</h3>
+      <div class="product-card">
+        <img src="img/tee-white.png" alt="White Tee" />
+        <h2>White Tee</h2>
         <p>Left chest logo</p>
-        <p class="price">$10</p>
-        <a class="btn small" href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank">Order</a>
-      </article>
+        <span>$10</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
 
-      <article class="product">
-        <div class="product-img tee pink-bg" style="background-image:url('img/tee-pink.png');">
-          <span class="logo-dot left"></span>
-        </div>
-        <h3>Pink Tee</h3>
+      <div class="product-card">
+        <img src="img/tee-pink.png" alt="Pink Tee" />
+        <h2>Pink Tee</h2>
         <p>Left chest logo</p>
-        <p class="price">$10</p>
-        <a class="btn small" href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank">Order</a>
-      </article>
+        <span>$10</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
 
-      <article class="product">
-        <div class="product-img tee lightblue-bg" style="background-image:url('img/tee-lightblue.png');">
-          <span class="logo-dot left"></span>
-        </div>
-        <h3>Light Blue Tee</h3>
+      <div class="product-card">
+        <img src="img/tee-lightblue.png" alt="Light Blue Tee" />
+        <h2>Light Blue Tee</h2>
         <p>Left chest logo</p>
-        <p class="price">$10</p>
-        <a class="btn small" href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank">Order</a>
-      </article>
+        <span>$10</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
 
-      <!-- LONG SLEEVES -->
-      <article class="product">
-        <div class="product-img long" style="background-image:url('img/long-black.png');">
-          <span class="logo-dot left"></span>
-        </div>
-        <h3>Black Long Sleeve</h3>
+      <div class="product-card">
+        <img src="img/tee-green.png" alt="Dark Green Tee" />
+        <h2>Dark Green Tee</h2>
         <p>Left chest logo</p>
-        <p class="price">$15</p>
-        <a class="btn small" href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank">Order</a>
-      </article>
+        <span>$10</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
 
-      <article class="product">
-        <div class="product-img long white-bg" style="background-image:url('img/long-white.png');">
-          <span class="logo-dot left dark"></span>
-        </div>
-        <h3>White Long Sleeve</h3>
+      <div class="product-card">
+        <img src="img/tee-maroon.png" alt="Maroon Tee" />
+        <h2>Maroon Tee</h2>
         <p>Left chest logo</p>
-        <p class="price">$15</p>
-        <a class="btn small" href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank">Order</a>
-      </article>
+        <span>$10</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
 
-      <!-- SWEATPANTS -->
-      <article class="product">
-        <div class="product-img pants" style="background-image:url('img/sweatpants-black.png');">
-          <span class="logo-dot right-leg"></span>
-        </div>
-        <h3>Black Sweatpants</h3>
-        <p>Logo on right leg</p>
-        <p class="price">$15</p>
-        <a class="btn small" href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank">Order</a>
-      </article>
+      <div class="product-card">
+        <img src="img/tee-navy.png" alt="Navy Blue Tee" />
+        <h2>Navy Blue Tee</h2>
+        <p>Left chest logo</p>
+        <span>$10</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
+
+      <!-- Long Sleeve Tees -->
+      <div class="product-card">
+        <img src="img/longsleeve-black.png" alt="Black Long Sleeve Tee" />
+        <h2>Black Long Sleeve Tee</h2>
+        <p>Left chest logo</p>
+        <span>$15</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
+
+      <div class="product-card">
+        <img src="img/longsleeve-white.png" alt="White Long Sleeve Tee" />
+        <h2>White Long Sleeve Tee</h2>
+        <p>Left chest logo</p>
+        <span>$15</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
+
+      <!-- Hoodies -->
+      <div class="product-card">
+        <img src="img/hoodie-black.png" alt="Black Hoodie" />
+        <h2>Black Hoodie</h2>
+        <p>Centered logo</p>
+        <span>$20</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
+
+      <div class="product-card">
+        <img src="img/hoodie-white.png" alt="White Hoodie" />
+        <h2>White Hoodie</h2>
+        <p>Centered logo</p>
+        <span>$20</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
+
+      <!-- Sweatpants -->
+      <div class="product-card">
+        <img src="img/sweatpants-black.png" alt="Black Sweatpants" />
+        <h2>Black Sweatpants</h2>
+        <p>Right leg logo</p>
+        <span>$15</span>
+        <a href="https://forms.gle/aoLaEWh7FC5hk3wA6" class="order-button">Order</a>
+      </div>
+
     </div>
   </section>
 
-  <!-- ORDER / CONTACT -->
-  <section id="order" class="section order">
-    <h2>Order / Contact</h2>
-
-    <a class="btn primary" href="https://forms.gle/aoLaEWh7FC5hk3wA6" target="_blank" rel="noopener">
-      Open Order Form
-    </a>
-
-    <p class="order-note">
-      DM us on IG:
-      <a href="https://instagram.com/fayyonce_clothing" target="_blank" rel="noopener">@fayyonce_clothing</a><br>
-      or email us at <a href="mailto:atlboyz561@gmail.com">atlboyz561@gmail.com</a>
-    </p>
-  </section>
-
+  <!-- Footer -->
   <footer class="footer">
-    <p>© <span id="year"></span> Fayyoncé. No association to B — just heat.</p>
+    <p>© <span id="year"></span> Fayyoncé Clothing. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
+
 
 
